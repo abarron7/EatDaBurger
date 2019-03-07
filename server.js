@@ -34,7 +34,7 @@ app.engine('handlebars', exphbs({
 app.set('view engine', 'handlebars');
 
 // routes
-var routes = require('./controllers/burgers_controllers.js');
+var routes = require('./controllers/burgers_controller.js');
 
 app.use('/', routes);
 app.use('/update', routes);
